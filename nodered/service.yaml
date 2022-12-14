@@ -8,7 +8,7 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - port: 1880
+  - port: 80
   selector:
     app: nodered
     tier: nodered

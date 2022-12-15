@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nodered
+  name: be7a-nwa
   labels:
-    app: nodered
-    tier: nodered
+    app: be7a-nwa
+    tier: be7a-nwa
 spec:
   type: NodePort
   ports:
@@ -13,5 +13,5 @@ spec:
     protocol: TCP
     name: http
   selector:
-    app: nodered
-    tier: nodered
+    app: be7a-nwa
+    tier: be7a-nwa
